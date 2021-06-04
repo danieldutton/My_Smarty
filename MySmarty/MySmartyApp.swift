@@ -11,7 +11,7 @@ import SwiftUI
 struct MySmartyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SmartyView()
         }
     }
 }

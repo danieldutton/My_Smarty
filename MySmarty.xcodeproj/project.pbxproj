@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A59FCE54266A935A00378003 /* MySmartyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE53266A935A00378003 /* MySmartyApp.swift */; };
-		A59FCE56266A935A00378003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE55266A935A00378003 /* ContentView.swift */; };
+		A59FCE56266A935A00378003 /* SmartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE55266A935A00378003 /* SmartyView.swift */; };
 		A59FCE58266A937A00378003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59FCE57266A937A00378003 /* Assets.xcassets */; };
 		A59FCE5B266A937A00378003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A59FCE5A266A937A00378003 /* Preview Assets.xcassets */; };
+		A59FCE64266AAA5F00378003 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FCE63266AAA5F00378003 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A59FCE50266A935A00378003 /* MySmarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySmarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59FCE53266A935A00378003 /* MySmartyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySmartyApp.swift; sourceTree = "<group>"; };
-		A59FCE55266A935A00378003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A59FCE55266A935A00378003 /* SmartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartyView.swift; sourceTree = "<group>"; };
 		A59FCE57266A937A00378003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A59FCE5A266A937A00378003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A59FCE5C266A937B00378003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59FCE63266AAA5F00378003 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,8 @@
 		A59FCE52266A935A00378003 /* MySmarty */ = {
 			isa = PBXGroup;
 			children = (
+				A59FCE62266AAA1000378003 /* View */,
 				A59FCE53266A935A00378003 /* MySmartyApp.swift */,
-				A59FCE55266A935A00378003 /* ContentView.swift */,
 				A59FCE57266A937A00378003 /* Assets.xcassets */,
 				A59FCE5C266A937B00378003 /* Info.plist */,
 				A59FCE59266A937A00378003 /* Preview Content */,
@@ -67,6 +69,15 @@
 				A59FCE5A266A937A00378003 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A59FCE62266AAA1000378003 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A59FCE55266A935A00378003 /* SmartyView.swift */,
+				A59FCE63266AAA5F00378003 /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A59FCE56266A935A00378003 /* ContentView.swift in Sources */,
+				A59FCE64266AAA5F00378003 /* WebView.swift in Sources */,
+				A59FCE56266A935A00378003 /* SmartyView.swift in Sources */,
 				A59FCE54266A935A00378003 /* MySmartyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
